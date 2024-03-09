@@ -1,3 +1,51 @@
+.flex-menu background-1{
+    align-items:flex-start !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: centre !important;
+}
+
+.flex-menu{
+    flex-direction:row !important;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.flex-container {
+    flex-direction:column;
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+    justify-content: center !important;
+    align-items: centre !important;
+    column-gap: 10px;
+}
+
+.flex-center{
+    justify-content:center;
+    align-items:center;
+}
+
+.flex-space-between{
+  
+    justify-content:space-between;
+
+}
+
+.flex-wrap{
+    flex-wrap:wrap;
+    flex-basis:0ch;
+    background-color:red !important; 
+    color: black !important;
+}
+
+.flex-basis-50{
+    flex-wrap:wrap;
+    flex-basis:0ch;
+    background-color:red !important;  
+    color: black !important;  
+}
+
 body {
     font-family: sans-serif;
     font-size: 16px;

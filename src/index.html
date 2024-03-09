@@ -14,10 +14,10 @@
       <h3>2. Basic flexbox</h3>
 
       <div class="flex-container">
-        <div class="flex-item-1 background-1 h-80 m-20"></div>
-        <div class="flex-item-2 background-2 h-80 m-20"></div>
-        <div class="flex-item-3 background-3 h-80 m-20"></div>
-        <div class="flex-item-4 background-4 h-80 m-20"></div>
+        <div class="flex-item-1 background-1 h-80 m-20">1</div>
+        <div class="flex-item-2 background-2 h-80 m-20">2</div>
+        <div class="flex-item-3 background-3 h-80 m-20">3</div>
+        <div class="flex-item-4 background-4 h-80 m-20">4</div>
       </div>
     </section>
 
@@ -52,13 +52,13 @@
     <section>
       <h3>7. Flexbox for horizontal navigation </h3>
 
-      <ul class="flex-container flex-menu background-1">
-        <li class="background-3 first-item"><a href="#">Home</a></li>
-        <li class="background-3 second-item"><a href="#">About Us</a></li>
-        <li class="background-3 third-item"><a href="#">Services</a></li>
-        <li class="background-3 fourth-item"><a href="#">FAQs</a></li>
-        <li class="background-3 fifth-item"><a href="#">Contact Us</a></li>
-      </ul>
+      <div class="flex-container flex-menu background-1">
+        <div class="background-3 first-item" style="order: 1;flex-grow: 0.1"><a href="#" >Home</a></div>
+        <div class="background-3 second-item" style="order: 2;flex-grow: 0.1"><a href="#" >About Us</a></div>
+        <div class="background-3 third-item" style="order: 3;flex-grow: 0.1"><a href="#" >Services</a></div>
+        <div class="background-3 fourth-item" style="order: 5;flex-grow: 0.1"><a href="#" >FAQs</a></div>
+        <div class="background-3 fifth-item" style="order: 4;flex-grow: 0.1"><a href="#" >Contact Us</a></div>
+      </div>
     </section>    
   </body>
 </html>
